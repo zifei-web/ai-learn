@@ -1,0 +1,19 @@
+﻿# ai-learn
+
+4 个月 AI 应用开发学习仓库。
+
+## 环境
+- Python 3.12.10
+- 虚拟环境 .venv
+
+## 运行
+`powershell
+.\.venv\Scripts\Activate.ps1
+python hello.py
+`
+"@ | Set-Content -Encoding UTF8 README.md
+    @"
+.venv/
+__pycache__/
+*.pyc
+.env
