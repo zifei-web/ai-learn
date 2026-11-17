@@ -1,19 +1,35 @@
-﻿# ai-learn
-
-4 个月 AI 应用开发学习仓库。
-
-## 环境
-- Python 3.12.10
-- 虚拟环境 .venv
-
-## 运行
-`powershell
-.\.venv\Scripts\Activate.ps1
-python hello.py
-`
-"@ | Set-Content -Encoding UTF8 README.md
-    @"
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量与密钥（绝对不要提交）
 .env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# IDE（.vscode 里的项目设置是有意提交的，不忽略）
+.idea/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 运行产物
+*.log
+data/
+output/
