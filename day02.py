@@ -155,7 +155,7 @@ else:
 
 # 你的代码：
 ch = "e"
-if ch == "a" or ch == "e" or ch == "i" or ch == "o" or ch == "u":
+if ch in "aeiouAEIOU":
     print("True")
 
 
@@ -383,7 +383,7 @@ print(m)
 # 你的代码：
 i = 0
 m = 0
-while m<1000:
+while m<=1000:
     i += 1
     m = m + i
 print(i,m)
